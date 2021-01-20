@@ -1,0 +1,26 @@
+Instructions
+
+This application was created using node.js,socket.io and express.
+
+To run this app you must have node.js and npm installed locally.
+
+Once these are installed open a command line and navigate to the connect5
+folder then type node gameServer to start the server.
+
+Once the server has started it will show listening on port 8080.
+
+Open a browser and navigate to localhost:8080 to start the game.
+
+I used jest to test the game logic the scripts, jest test classes are included for both the client and the server side js.
+
+Some code will need to be uncommented out if you wish to run the tests, the lines
+ are highlighted at lines 20-23, 60 and 86-90 in the client.js file which can be found in
+ the client folder.
+
+To run the tests type npm test at either the connect5 directory or in the client folder.
+
+I could not find and efficient way to test the websocket emits and in retrospect I
+would have created this application using much different technologies to showcase
+my knowledge of unit testing.
+
+I apologise that I did not fulfil the brief in it's entirety.
