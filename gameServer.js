@@ -144,7 +144,7 @@ io.on('connection', function(socket) {
         players[1] = newPlayer;
       }else {
         console.log("too many players");
-        socket.emit("errorMsg", "not enough space please try later or watch the current match");
+        socket.emit("errorMsg", "not enough spaces please try later or watch the current match");
         //disconnect
 
       }
